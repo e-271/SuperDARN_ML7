@@ -119,7 +119,7 @@ def k_means_data_dist(rad, beam, stm, etm, data_dict):
 
 
 
-def read_from_db(rad, beam, stm, etm, baseLocation="/home/xueling/data/sqlite3/"):
+def read_from_db(rad, beam, stm, etm, baseLocation="../Data/"):
 
         """ reads the data from db instead of files
         """

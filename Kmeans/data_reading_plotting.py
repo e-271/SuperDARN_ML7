@@ -99,7 +99,7 @@ def k_means_data_dist(rad, beam, stm, etm, data_dict):
     plot_rti(data_dict,'velocity',gsct=True)
     
 
-def read_from_db(rad, beam, stm, etm, baseLocation="/Users/xueling/data/sqlite3/"):
+def read_from_db(rad, beam, stm, etm, baseLocation="../Data/"):
 
     """ reads the data from db instead of files
     """

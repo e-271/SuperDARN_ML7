@@ -164,6 +164,6 @@ rad = 'SAS'
 stm = dt.datetime(2017,9,1,0)
 etm =  dt.datetime(2017,9,2,0)
 beam = 7
-data_dict = read_from_db(rad, beam, stm, etm, "./")
+data_dict = read_from_db(rad, beam, stm, etm, "../Data/")
 gmm_dist(rad, beam, stm, etm, data_dict)
 
